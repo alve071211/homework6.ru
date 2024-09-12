@@ -1,0 +1,10 @@
+my_dict={'Vera':2011,'Vika':2002,'Masha':2009,'Misha':2006}
+print(my_dict)
+print(my_dict['Masha'])
+print(my_dict.get('Alla'))
+my_dict.update({'Dima':1975,'Max':1998})
+a=my_dict.pop('Masha')
+print(a)
+print(my_dict)
+my_set={15,14,36,40,15,14,40,15,16,18,'Миша',(1,2,3),'Миша'}
+print(my_set)
